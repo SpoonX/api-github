@@ -1,14 +1,14 @@
 {
-  "name": "api-github",
-  "version": "0.0.1",
-  "description": "Github api wrapper",
-  "main": "index.js",
-  "scripts": {
-    "test": "node_modules/mocha/bin/mocha -b"
-  },
-  "repository": {
+  "name"        : "api-github",
+  "version"     : "0.1.0",
+  "description" : "Github api wrapper",
+  "main"        : "index.js",
+  "repository"  : {
     "type": "git",
     "url": "git+ssh://git@github.com/SpoonX/api-github.git"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -b"
   },
   "keywords": [
     "github",
