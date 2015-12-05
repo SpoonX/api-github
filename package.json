@@ -1,0 +1,26 @@
+{
+  "name"        : "api-github",
+  "version"     : "0.0.1",
+  "description" : "Github api wrapper",
+  "main"        : "index.js",
+  "repository"  : {
+    "type": "git",
+    "url" : "git+ssh://git@github.com/SpoonX/api-github.git"
+  },
+  "keywords"    : [
+    "github",
+    "api",
+    "api.github"
+  ],
+  "author"      : "RWOverdijk",
+  "license"     : "MIT",
+  "bugs"        : {
+    "url": "https://github.com/SpoonX/api-github/issues"
+  },
+  "homepage"    : "https://github.com/SpoonX/api-github#readme",
+  "dependencies": {
+    "extend"     : "^3.0.0",
+    "querystring": "^0.2.0",
+    "request"    : "^2.67.0"
+  }
+}
