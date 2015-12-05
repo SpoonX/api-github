@@ -21,6 +21,7 @@
     "url": "https://github.com/SpoonX/api-github/issues"
   },
   "homepage": "https://github.com/SpoonX/api-github#readme",
+  "engine": "node >= 4.0.0",
   "dependencies": {
     "extend": "^3.0.0",
     "querystring": "^0.2.0",
