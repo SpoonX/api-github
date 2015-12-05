@@ -1,5 +1,4 @@
-# ApiGithub
-[![Build Status](https://travis-ci.org/SpoonX/api-github.svg?branch=master)](https://travis-ci.org/SpoonX/api-github)
+# ApiGithub [![Build Status](https://travis-ci.org/SpoonX/api-github.svg?branch=master)](https://travis-ci.org/SpoonX/api-github)
 
 Sane, and simple wrapper for the github API.
 
