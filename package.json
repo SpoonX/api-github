@@ -1,29 +1,33 @@
 {
-  "name"        : "api-github",
-  "version"     : "0.0.1",
-  "description" : "Github api wrapper",
-  "main"        : "index.js",
+  "name": "api-github",
+  "version": "0.0.1",
+  "description": "Github api wrapper",
+  "main": "index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha -b"
   },
-  "repository"  : {
+  "repository": {
     "type": "git",
-    "url" : "git+ssh://git@github.com/SpoonX/api-github.git"
+    "url": "git+ssh://git@github.com/SpoonX/api-github.git"
   },
-  "keywords"    : [
+  "keywords": [
     "github",
     "api",
     "api.github"
   ],
-  "author"      : "RWOverdijk",
-  "license"     : "MIT",
-  "bugs"        : {
+  "author": "RWOverdijk",
+  "license": "MIT",
+  "bugs": {
     "url": "https://github.com/SpoonX/api-github/issues"
   },
-  "homepage"    : "https://github.com/SpoonX/api-github#readme",
+  "homepage": "https://github.com/SpoonX/api-github#readme",
   "dependencies": {
-    "extend"     : "^3.0.0",
+    "extend": "^3.0.0",
     "querystring": "^0.2.0",
-    "request"    : "^2.67.0"
+    "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "mocha": "^2.3.4"
   }
 }
