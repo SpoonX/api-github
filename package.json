@@ -3,6 +3,9 @@
   "version"     : "0.0.1",
   "description" : "Github api wrapper",
   "main"        : "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -b"
+  },
   "repository"  : {
     "type": "git",
     "url" : "git+ssh://git@github.com/SpoonX/api-github.git"
