@@ -1,10 +1,11 @@
 "use strict";
 
-var Transport = require('./lib/transport'),
-    extend    = require('extend'),
-    Orgs      = require('./lib/resources/orgs'),
-    Repos     = require('./lib/resources/repos'),
-    Users     = require('./lib/resources/users');
+let Transport      = require('./lib/transport');
+let extend         = require('extend');
+let Orgs           = require('./lib/resources/orgs');
+let Repos          = require('./lib/resources/repos');
+let Authorizations = require('./lib/resources/authorizations');
+let Users          = require('./lib/resources/users');
 
 /**
  * ApiGithub class.
@@ -16,12 +17,13 @@ class ApiGithub {
    *
    * @param {{}} options
    */
-  constructor (options) {
-    this.options   = options;
-    this.transport = new Transport(this.options);
-    this.orgs      = new Orgs(this.transport);
-    this.repos     = new Repos(this.transport);
-    this.users     = new Users(this.transport);
+  constructor(options) {
+    this.options        = options;
+    this.transport      = new Transport(this.options);
+    this.orgs           = new Orgs(this.transport);
+    this.repos          = new Repos(this.transport);
+    this.users          = new Users(this.transport);
+    this.authorizations = new Authorizations(this.transport);
   }
 
   /**
@@ -29,7 +31,7 @@ class ApiGithub {
    *
    * @return {{}}
    */
-  get options () {
+  get options() {
     return this._options;
   }
 
@@ -38,7 +40,7 @@ class ApiGithub {
    *
    * @param {{}} options
    */
-  set options (options) {
+  set options(options) {
     this._options = extend(true, {
       endpoint : 'https://api.github.com/',
       userAgent: 'API-Github by SpoonX.',
