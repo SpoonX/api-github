@@ -12,3 +12,10 @@ api.orgs.find('SpoonX').then(console.log).catch(console.error);
 api.repos.find('spoonx/aurelia-orm').then(console.log).catch(console.error);
 
 ```
+
+
+## New
+* Added authorizations support
+* Return response on failure
+* Added support for subscriptions
+* Added support for custom auth headers
