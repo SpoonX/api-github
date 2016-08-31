@@ -13,7 +13,6 @@ api.repos.find('spoonx/aurelia-orm').then(console.log).catch(console.error);
 
 ```
 
-
 ## New
 * Added authorizations support
 * Return response on failure
